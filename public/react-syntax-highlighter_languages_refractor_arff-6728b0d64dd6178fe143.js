@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmal_wood_santoro=self.webpackChunkmal_wood_santoro||[]).push([[1438],{4703:function(a){function e(a){a.languages.arff={comment:/%.*/,string:{pattern:/(["'])(?:\\.|(?!\1)[^\\\r\n])*\1/,greedy:!0},keyword:/@(?:attribute|data|end|relation)\b/i,number:/\b\d+(?:\.\d+)?\b/,punctuation:/[{},]/}}a.exports=e,e.displayName="arff",e.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_arff-6728b0d64dd6178fe143.js.map

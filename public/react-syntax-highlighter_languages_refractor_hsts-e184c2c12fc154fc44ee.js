@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmal_wood_santoro=self.webpackChunkmal_wood_santoro||[]).push([[3140],{9434:function(a){function s(a){a.languages.hsts={directive:{pattern:/\b(?:max-age=|includeSubDomains|preload)/,alias:"keyword"},safe:{pattern:/\d{8,}/,alias:"selector"},unsafe:{pattern:/\d{1,7}/,alias:"function"}}}a.exports=s,s.displayName="hsts",s.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_hsts-e184c2c12fc154fc44ee.js.map
