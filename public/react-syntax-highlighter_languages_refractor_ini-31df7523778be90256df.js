@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmal_wood_santoro=self.webpackChunkmal_wood_santoro||[]).push([[6495],{37:function(t){function n(t){t.languages.ini={comment:/^[ \t]*[;#].*$/m,selector:/^[ \t]*\[.*?\]/m,constant:/^[ \t]*[^\s=]+?(?=[ \t]*=)/m,"attr-value":{pattern:/=.*/,inside:{punctuation:/^[=]/}}}}t.exports=n,n.displayName="ini",n.aliases=[]}}]);
-//# sourceMappingURL=react-syntax-highlighter_languages_refractor_ini-31df7523778be90256df.js.map

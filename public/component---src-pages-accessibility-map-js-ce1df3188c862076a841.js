@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmal_wood_santoro=self.webpackChunkmal_wood_santoro||[]).push([[6278],{95:function(e,t,n){n.r(t);var a=n(7294);t.default=function(){return a.createElement(a.Fragment,null,a.createElement("iframe",{src:"/dood.html",title:"dummy",style:{width:"800px",height:"600px"}}))}}}]);
-//# sourceMappingURL=component---src-pages-accessibility-map-js-ce1df3188c862076a841.js.map

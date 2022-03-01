@@ -22,6 +22,7 @@
     "antd": "^4.17.3",
     "gatsby": "^4.3.0",
     "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-react-helmet": "^5.5.0",
     "mapbox.minimap": "^0.3.0",
     "react": "^17.0.1",

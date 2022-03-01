@@ -1,86 +1,85 @@
 import * as React from "react"
 import nocs from "../images/nocs.jpg"
-import MyMenu from "../components/mymenu"
+import pups from "../images/pups.png"
+import { GithubOutlined } from '@ant-design/icons';
+import { EnvironmentOutlined } from '@ant-design/icons';
+import { LinkedinOutlined } from '@ant-design/icons';
+import { MailOutlined } from '@ant-design/icons';
+import { Link } from "gatsby";
+import '../css/site.css'
 
 // styles
 const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
+  paddingTop: 100,
+  paddingBottom: 100,
+  fontFamily: "Playfair Display",
+  textAlign: "center"
 }
+
 const headingStyles = {
   marginTop: 0,
   marginBottom: 10,
-  maxWidth: 320,
-  fontSize: 40,
-  color: "#a7cbe2"
+  fontSize: 44,
+  fontWeight: 'bold',
+  color: '#88BBEA',
+  fontFamily: "Playfair Display",
+  textAlign: "left"
 }
 
-const menuStyles = {
-  color: "#a7cbe2",
-  fontSize: 20
-}
-
-const headingAccentStyles = {
-  color: "#663399",
-}
 const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: 30,
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-}
-
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
+  textAlign: "left",
   fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
-
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
+  marginLeft: 12,
+  marginRight: 12,
+  fontFamily: "Playfair Display"
 }
 
 // markup
 const IndexPage = () => {
-  return ( 
+  return (
     <main style={pageStyles}>
-      <div style={menuStyles}><MyMenu /></div>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Mal 
-        <br></br>Wood-Santoro
-      </h1>
-      <img
-        alt="Gatsby G Logo"
-        src={nocs}
-        style={{ width: 350 }}
-      />
+      <div class="wrapper">
+        <header class="header">
+          <div style={{ marginBottom: 100 }}>
+            <span style={{ float: "left", fontSize: 20, fontWeight: 'bold' }}>welcome.</span>
+            <span style={{ float: "right", fontSize: 20, fontWeight: 'bold' }}><Link style={{ color: "#49709F" }} to="/work">work</Link></span>
+          </div>
+          <title>Mal Wood-Santoro</title></header>
+        <aside class="sidebar">
+          <div>
+            <img
+              alt="Gatsby G Logo"
+              src={nocs}
+              style={{ minWidth: "200px", minHeight: "100%", maxWidth: "100%", maxHeight: "100%", paddingRight: 20, borderRadius: 10 }}
+            />
+          </div>
+          <div class="caption"><EnvironmentOutlined /> Leona Heights Park, home of <Link style={{ color: "#49709F" }} to="https://vimeo.com/286727919">Old Survivor</Link></div>
+        </aside>
+        <article class="content">
+          <div style={{ verticalAlign: "middle" }}>
+            <div style={headingStyles}>
+              Mal<br />Wood-Santoro
+            </div>
+            <div style={paragraphStyles}>
+              I am a software engineer living in <span style={{ fontWeight: "bold", fontSize: 20, color: "#49709F" }}>Oakland, California</span>. I believe the internet can be a more human place where people can connect, explore, and make meaning through thoughtfully built accessible applications and websites. While you are here, please meet my two dogs, Maple and Ollie. <br></br>
+              <img
+                alt="Maple and Ollie"
+                src={pups}
+                style={{ paddingTop: 10, paddingLeft: 30, paddingBottom: 20, minHeight: "75%", maxWidth: "75%", maxHeight: "75%" }}
+              />
+              <div style={{ paddingLeft: 20 }}>
+                <div><GithubOutlined /> github: malwoodsantoro</div>
+                <div><LinkedinOutlined /> linkedin: malwoodsantoro</div>
+                <div><MailOutlined /> email: malwoodsantoro@gmail.com</div>
+                <Link to="https://resume.creddle.io/resume/dqjv8kua6bv" style={{ color: "#49709F" }}>resume</Link>
+              </div>
+            </div>
+          </div>
+        </article>
+        <footer class="footer" style={{ borderRadius: 0, marginTop: 50, borderTop: '4px solid #49709F' }}>
+          <p style={{ textAlign: 'right' }}>©2020-2022 malwoodsantoro.com</p>
+        </footer>
+      </div>
     </main>
   )
 }

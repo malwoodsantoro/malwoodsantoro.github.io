@@ -1,7 +1,11 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/malwoodsantoro/malwoodsantoro.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/mallorywood/malwoodsantoro.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      name: 'gatsby-plugin-google-fonts',
+      plugin: require('/Users/mallorywood/malwoodsantoro.github.io/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["Shizuru","Playfair Display","Raleway","source sans pro:300,400,400i,700"],"display":"swap"},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

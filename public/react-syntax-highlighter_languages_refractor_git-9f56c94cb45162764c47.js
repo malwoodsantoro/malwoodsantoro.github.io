@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmal_wood_santoro=self.webpackChunkmal_wood_santoro||[]).push([[2564],{1433:function(m){function e(m){m.languages.git={comment:/^#.*/m,deleted:/^[-–].*/m,inserted:/^\+.*/m,string:/("|')(?:\\.|(?!\1)[^\\\r\n])*\1/m,command:{pattern:/^.*\$ git .*$/m,inside:{parameter:/\s--?\w+/m}},coord:/^@@.*@@$/m,commit_sha1:/^commit \w{40}$/m}}m.exports=e,e.displayName="git",e.aliases=[]}}]);
-//# sourceMappingURL=react-syntax-highlighter_languages_refractor_git-9f56c94cb45162764c47.js.map
