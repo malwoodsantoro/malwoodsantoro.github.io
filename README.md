@@ -1,1 +1,1 @@
-Personal website. Built with Gatsby and Ant Design. 🔨
+My personal website. Built with Gatsby and Ant Design.
