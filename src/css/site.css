@@ -40,9 +40,9 @@ h1, p {
 
 .wrapper > * {
   background-color: #fff;
+  background-color: rgba(0,0,0,0);
   color: #000;
   border-radius: 5px;
-  padding: 20px;
   font-size: 100%;
   /* needed for the floated layout*/
   margin-bottom: 10px;
@@ -52,6 +52,7 @@ h1, p {
   grid-column: 1 / -1;
   /* needed for the floated layout */
   clear: both;
+  background-color: rgba(0,0,0,0);
 }
 
 
@@ -61,4 +62,11 @@ h1, p {
     width: auto;
     margin: 0;
   }
+}
+
+#squiggle {
+  position: fixed;
+  z-index:-1;
+  right: 0px;
+  bottom: 0px;
 }

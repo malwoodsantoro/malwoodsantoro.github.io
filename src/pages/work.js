@@ -1,23 +1,24 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import accessibilityGIF from '../gifs/accessibility.gif'
+import squiggle from "../images/squiggle.png"
 import docs from '../images/docs.png'
-import download from '../images/download.png'
 import '../css/site.css'
 
 const pageStyles = {
   color: "#232129",
-  paddingTop: 100,
+  paddingTop: 50,
   paddingBottom: 100,
   paddingLeft: 200,
   paddingRight: 200,
+  fontSize: 14,
   fontFamily: "Playfair Display",
   textAlign: "center"
 }
 
 const headingStyles = {
   marginBottom: 10,
-  fontSize: 26,
+  fontSize: 24,
   fontFamily: "Playfair Display",
   color: "#49709F"
 }
@@ -29,7 +30,7 @@ const AccessibilityPage = () => {
       <div class="wrapper" style={{ maxWidth: 1100 }}>
         <header class="header">
           <div style={{ textAlign: "left", fontSize: 20, paddingBottom: 20 }}>
-            <Link style={{ color: "#88BBEA", fontSize: 20, fontWeight: 'bold' }} to="/">> go back.</Link>
+            <Link style={{ color: "#49709F", fontSize: 20, fontWeight: 'bold' }} to="/">> go back.</Link>
           </div>
         </header>
         <aside class="sidebar">
@@ -52,10 +53,14 @@ const AccessibilityPage = () => {
             Created a tool to provide a better experience for users with vision impairment or low vision who encounter a web map and need to gather information from it using a screen reader. I decided to tackle the three main issues: (1) the location of the map is not described, (2) it’s only possible to tab over existing features randomly because the tab-index of each feature is set to zero, and (3) the user isn’t given a way to meaningfully explore or move around the map. This implementation uses a bounding box that can be moved with the arrow keys. The direction the user is moving is read aloud (i.e. “Moving North”) and then the list of POIs in the area are announced. If a user selects a number corresponding to an announced place, the sidebar opens with all of the details available about the POI.
           </div>
         </article>
-        <aside class="sidebar" style={headingStyles}>Experience with:</aside>
-        <aside class="content"> Javascript/jQuery, HTML, CSS, React, Typescript, SASS, cURL, QGIS,    </aside>
+        <img
+          id="squiggle"
+          alt="Squiggle"
+          src={squiggle}
+          style={{ minHeight: "25%", maxWidth: "25%", maxHeight: "25%" }}
+        />
         <footer class="footer" style={{ borderRadius: 0, marginTop: 50, borderTop: '4px solid #49709F' }}>
-          <p style={{ textAlign: 'right' }}>©2020-2022 malwoodsantoro.com</p>
+          <p style={{ textAlign: 'right', fontSize: 12 }}>©2022 All rights reserved.</p>
         </footer>
       </div>
     </main >

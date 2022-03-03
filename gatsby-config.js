@@ -9,7 +9,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Shizuru`, `Playfair Display`, `Raleway`,
+          `Shizuru`, `Playfair Display`, `Raleway`, `Shrikhand`,
           `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
         ],
         display: 'swap'

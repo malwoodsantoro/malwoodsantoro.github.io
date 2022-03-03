@@ -4423,13 +4423,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _images_nocs_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/nocs.jpg */ "./src/images/nocs.jpg");
 /* harmony import */ var _images_pups_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/pups.png */ "./src/images/pups.png");
-/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ant-design/icons */ "./node_modules/@ant-design/icons/es/icons/GithubOutlined.js");
-/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ant-design/icons */ "./node_modules/@ant-design/icons/es/icons/EnvironmentOutlined.js");
-/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ant-design/icons */ "./node_modules/@ant-design/icons/es/icons/LinkedinOutlined.js");
-/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ant-design/icons */ "./node_modules/@ant-design/icons/es/icons/MailOutlined.js");
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _css_site_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../css/site.css */ "./src/css/site.css");
-/* harmony import */ var _css_site_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_site_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _images_squiggle_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/squiggle.png */ "./src/images/squiggle.png");
+/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @ant-design/icons */ "./node_modules/@ant-design/icons/es/icons/GithubOutlined.js");
+/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ant-design/icons */ "./node_modules/@ant-design/icons/es/icons/EnvironmentOutlined.js");
+/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ant-design/icons */ "./node_modules/@ant-design/icons/es/icons/LinkedinOutlined.js");
+/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ant-design/icons */ "./node_modules/@ant-design/icons/es/icons/MailOutlined.js");
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
+/* harmony import */ var _css_site_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/site.css */ "./src/css/site.css");
+/* harmony import */ var _css_site_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_css_site_css__WEBPACK_IMPORTED_MODULE_5__);
+
 
 
 
@@ -4441,7 +4443,7 @@ __webpack_require__.r(__webpack_exports__);
  // styles
 
 const pageStyles = {
-  paddingTop: 100,
+  paddingTop: 50,
   paddingBottom: 100,
   fontFamily: "Playfair Display",
   textAlign: "center"
@@ -4451,9 +4453,10 @@ const headingStyles = {
   marginBottom: 10,
   fontSize: 44,
   fontWeight: 'bold',
-  color: '#88BBEA',
-  fontFamily: "Playfair Display",
-  textAlign: "left"
+  color: '#c9e0f5',
+  fontFamily: "Shrikhand",
+  textAlign: "left",
+  textShadow: "1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000"
 };
 const paragraphStyles = {
   textAlign: "left",
@@ -4486,11 +4489,11 @@ const IndexPage = () => {
       fontSize: 20,
       fontWeight: 'bold'
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
     style: {
       color: "#49709F"
     },
-    to: "/accessibility-map"
+    to: "/work"
   }, "work"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("title", null, "Mal Wood-Santoro")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("aside", {
     class: "sidebar"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -4506,7 +4509,7 @@ const IndexPage = () => {
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     class: "caption"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ant_design_icons__WEBPACK_IMPORTED_MODULE_5__["default"], null), " Leona Heights Park, home of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ant_design_icons__WEBPACK_IMPORTED_MODULE_6__["default"], null), " Leona Heights Park, home of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
     style: {
       color: "#49709F"
     },
@@ -4542,7 +4545,7 @@ const IndexPage = () => {
     style: {
       paddingLeft: 20
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ant_design_icons__WEBPACK_IMPORTED_MODULE_6__["default"], null), " github: malwoodsantoro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ant_design_icons__WEBPACK_IMPORTED_MODULE_7__["default"], null), " linkedin: malwoodsantoro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ant_design_icons__WEBPACK_IMPORTED_MODULE_8__["default"], null), " email: malwoodsantoro@gmail.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_3__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ant_design_icons__WEBPACK_IMPORTED_MODULE_7__["default"], null), " github: malwoodsantoro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ant_design_icons__WEBPACK_IMPORTED_MODULE_8__["default"], null), " linkedin: malwoodsantoro"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ant_design_icons__WEBPACK_IMPORTED_MODULE_9__["default"], null), " email: malwoodsantoro@gmail.com"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(gatsby__WEBPACK_IMPORTED_MODULE_4__.Link, {
     to: "https://resume.creddle.io/resume/dqjv8kua6bv",
     style: {
       color: "#49709F"
@@ -4558,7 +4561,16 @@ const IndexPage = () => {
     style: {
       textAlign: 'right'
     }
-  }, "\xA92020-2022 malwoodsantoro.com"))));
+  }, "\xA92020-2022 malwoodsantoro.com")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    id: "squiggle",
+    alt: "Squiggle",
+    src: _images_squiggle_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+    style: {
+      minHeight: "20%",
+      maxWidth: "20%",
+      maxHeight: "20%"
+    }
+  })));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (IndexPage);
@@ -5669,6 +5681,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/pups-496f0d1e38d464635cce1dc3f1b33892.png");
+
+/***/ }),
+
+/***/ "./src/images/squiggle.png":
+/*!*********************************!*\
+  !*** ./src/images/squiggle.png ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "static/squiggle-cd2895e57250c921af94d74766e39201.png");
 
 /***/ }),
 
